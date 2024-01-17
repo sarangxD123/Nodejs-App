@@ -112,4 +112,5 @@ Verify that the deployments are running.
 
 ```
 kubectl get deployment -n kube-system aws-load-balancer-controller
+
 ```
