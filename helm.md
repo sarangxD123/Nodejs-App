@@ -7,7 +7,7 @@ I am using above version
 
 2. Create Helm Charts
 
-helm create myntra-app
+helm create help-myntra
 
 3. Modify the helm chart files
 
@@ -62,3 +62,7 @@ NAME                    READY STATUS   RESTARTS AGE
 myprog-694c58864d-qmrms 1/1   Running  0    43s
 
 $ kubectl get deployment
+
+6. TO uninstall
+
+ helm uninstall myntra-basic or <your helm list name>
