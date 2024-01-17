@@ -65,4 +65,4 @@ $ kubectl get deployment
 
 6. TO uninstall
 
- helm uninstall myntra-basic or <your helm list name>
+ helm uninstall myntra-basic or your helm list name
