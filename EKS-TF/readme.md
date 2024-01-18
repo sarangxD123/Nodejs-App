@@ -1,6 +1,8 @@
-Use Following Commands:
+Use Following Commands to Create EKS Cluster Using Terraform:
 
 ```
+terraform init -- to initialize a working directory containing Terraform configuration files and download plugins
+
 terraform validate -- to validate the configuration
 
 terraform plan -- to check the configuration
