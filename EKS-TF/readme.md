@@ -20,9 +20,11 @@ aws eks update-kubeconfig --region region-code --name my-cluster
 #aws eks update-kubeconfig --region eu-north-1 --name EKS_CLOUD
 
 
-Check if you can access your cluster after updating the kube-config using above command
+To check if you can access your cluster use the following command
 
 ```
+kubectl cluster-info
+
 kubectl get nodes -A 
 
 ```
